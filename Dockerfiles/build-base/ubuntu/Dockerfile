@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 ARG MAJOR_VERSION=4.0
 ARG ZBX_VERSION=${MAJOR_VERSION}.44

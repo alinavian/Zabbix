@@ -5,7 +5,7 @@ ARG BUILD_BASE_IMAGE=zabbix-build-sqlite3:ubuntu-${ZBX_VERSION}
 
 FROM ${BUILD_BASE_IMAGE} as builder
 
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 ARG MAJOR_VERSION
 ARG ZBX_VERSION

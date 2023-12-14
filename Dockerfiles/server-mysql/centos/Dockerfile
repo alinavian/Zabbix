@@ -5,7 +5,7 @@ ARG BUILD_BASE_IMAGE=zabbix-build-mysql:centos-${ZBX_VERSION}
 
 FROM ${BUILD_BASE_IMAGE} as builder
 
-FROM centos:centos7
+FROM centos:centos8
 
 ARG MAJOR_VERSION
 ARG ZBX_VERSION
